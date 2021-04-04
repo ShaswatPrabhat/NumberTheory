@@ -1,6 +1,8 @@
 from PrimeFactorization.WheelFactorization import wheel_factorization
 from PrimeFactorization.NumberOfDivisors import number_of_divisors
 from PrimeFactorization.SumOfDivisors import sum_of_divisors
+from Euclid.GCD import gcd
+from Euclid.LCM import lcm
 
 
 def generate_prime_factors_for(number):
@@ -10,4 +12,5 @@ def generate_prime_factors_for(number):
 
 
 if __name__ == '__main__':
-    generate_prime_factors_for(1800)
+    print(gcd(39, 26))
+    print(lcm(39, 26))
